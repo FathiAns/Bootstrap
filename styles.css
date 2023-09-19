@@ -98,3 +98,94 @@ body{
 .explore-wrapper{
     background-color: white;
 }
+.oppo-support{
+    background-color:#ebe6e6;
+}
+.oppo-support a{
+    color:black;
+    font-size: large;
+}
+.oppo-support li{
+    background-color: #ebe6e6;
+    border-color:#b3adad;
+}
+.footer-text{
+    color: beige;
+}
+.footer-row-2{
+    display: flex;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+@media screen and (max-width: 700px) {
+    .footer-row-2 {
+      display: block;
+    }
+  }
+.footer-row-2 ul{
+    padding-left: 0%;
+    padding-right: 50px ;
+}
+.footer-row-2 li{
+    list-style: none;
+    padding-top: 10px;
+    font-size: 15px;
+}
+.footer-row-2 ul > li:first-child{
+    color: white;
+    font-size: 18px;
+}
+.footer-row-3{
+    display: flex;
+    padding: 10px;
+    
+}
+.footer-row-3 img{
+    width: 34px;
+    margin:20px;
+    margin-left:0px;   
+}
+.footer-row-3 span{
+    margin:25px;
+    margin-left: 0px;
+    color: white;
+    font-weight: 400;
+}
+.footer-row3-col{
+    color: rgba(255,255,255,0.55);
+    margin: 25px;
+    position: absolute;
+    right: 30px;
+}
+.footer-row3-col i{
+    margin: 5px;
+}
+.footer-row3-col a{
+    color: white;
+}
+.footer-row-4{
+    padding:20px 0px 20px 0px;
+    position: relative;
+}
+.footer-row-4 ul{
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    padding-left: 0px;
+   
+}
+.footer-row-4 li{
+    padding-right: 20px;
+}
+.footer-row-4 img{
+    width:80px;
+}
+.footer-row-4-cal{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+}
+.footer-row-4-cal a{
+    color:  rgba(255,255,255,0.55);;
+}
